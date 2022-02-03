@@ -1,0 +1,232 @@
+
+.carousel .carousel-item {
+    height: 60vh;
+  }
+  
+  .carousel-item img {
+      position: absolute;
+      object-fit:fill;
+      top:-40vh ;
+      left: 0;
+      min-height: 60vh;
+  }
+#logo{
+    position:static ;
+    overflow: visible;
+    
+}
+
+
+#derechahome{
+    background-color: rgba(169, 169, 169, 0.52);
+    
+}
+#izquierdahome{
+   background-color: rgba (233, 236, 239,0.50) ;
+}
+.navbar-custom{background-color: rgb(150, 15, 22);
+}
+/* .navbar a{
+    color: white;
+} */
+
+.tabla{
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(238, 232, 232);
+}
+.tabla1{
+    justify-content: center;
+    text-align: center;
+    background-color: lightgrey;
+}
+
+.tabla:hover{
+    background-color: white;
+
+}
+.tabla1:hover{
+    background-color: white;
+}
+#hotel{
+    justify-content: center;
+    text-align: center;
+    margin: 10vh;
+    color: rgb(138,173,161);
+}
+#guale{
+    font-weight: bolder;
+    font-style: italic;
+    color: rgb(138,173,161);
+}
+.txtcarousel{
+    font-size: 12vh ;
+    transform: translate(-50vh,-25vh);
+    
+}
+:root{
+    --animate-delay: 0.9s;
+}
+.animate__animated.animate__fadeInUp{
+    transform: translate(-50vh,-25vh);
+     
+}
+ 
+ 
+#txtpiscb{
+    transform: translate(-50vh,-25vh);
+    color: rgb(138,173,161);
+}
+
+#txtpisc{
+    transform: translate(-50vh,-25vh);
+     
+}
+
+
+#txtspa{
+    transform: translate(-50vh,-25vh);
+    color: rgb(138,173,161);
+}
+
+.txtspa{
+    transform: translate(-50vh,-25vh);
+}
+.txthab{
+    transform: translate(-50vh,-25vh);
+}
+#txthab{
+    transform: translate(-50vh,-25vh);
+    color: rgb(138,173,161); 
+}
+ 
+.card-body{
+    text-align: center;
+}
+.titulocard{
+    background-color: rgb(164,146,65);
+    color: white;
+}
+
+footer{
+    
+    background-color:rgb(138,173,161) ;
+    color: white;
+} 
+#linkContacto{
+    
+    text-decoration:none;
+    color: white; 
+}
+#finaldepag{
+   text-align: center;
+}
+.contenedorResto{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+}
+.descresto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+
+#resto:hover{
+    opacity: 30%;
+    
+ z-index: 1;
+    
+
+}
+
+ 
+
+
+.contenedorquincho{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+}
+.descquincho{
+    position: absolute;
+
+}
+#quincho:hover{
+    opacity: 30%;
+    z-index: 1;
+
+}
+.contenedorbicis{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+}
+.descbicis{
+    position: absolute;
+}
+#bicis:hover{
+    opacity: 30%;
+    z-index: 1;
+
+}
+.contenedorbotes{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+}
+.descbotes{
+    position: absolute;
+}
+#botes:hover{
+    opacity: 30%;
+    z-index: 1;
+
+}
+.contenedormuelle{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+}
+.descmuelle{
+    position: absolute;
+}
+#muelle:hover{
+    opacity: 30%;
+    z-index: 1;
+
+}
+.contenedorjuegos{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+}
+.descjuegos{
+    position: absolute;
+}
+#juegos:hover{
+    opacity: 30%;
+    z-index: 1;
+
+}
+#tabladefotos{
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+
+
+
+
+.inivi{
+    display: none;
+}
