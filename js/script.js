@@ -133,7 +133,7 @@ var dedonde=Spa.findIndex(x=> x.src===source) //busco el index de esa foto para 
 if (cambio =="prev"){
 dedonde-=1
 var modal = document.getElementById('myModal');
-// var captionText = document.getElementById("caption");
+ 
 var modalImg = document.getElementById("img01");
 modalImg.src =Spa[dedonde].src ; 
 // modalImg.alt =Spa[dedonde].alt;
@@ -143,12 +143,10 @@ modalImg.src =Spa[dedonde].src ;
   else if (cambio=="next"){
  dedonde+=1
 var modal = document.getElementById('myModal');
-// var captionText = document.getElementById("caption");
+ 
 var modalImg = document.getElementById("img01");
 modalImg.src =Spa[dedonde].src ; 
-// modalImg.alt =Spa[dedonde].alt;
-// captionText.innerHTML =Spa[dedonde].alt;
-    //console.log("proxima")
+ 
   }
 
  }
@@ -180,7 +178,12 @@ captionText.innerHTML =fotos[dedonde].alt;
    }
   }
 
-
+function cambiofondo(event){
+  var id = event.currentTarget.getAttribute("id")
+  console.log(id)
+  document.getElementById(id).style.backgroundColor="rgb 255 255 255 !important";
+  document.getElementById(id).style.color="rgb 30 30 30"
+}
 
 
  

@@ -507,3 +507,37 @@ footer{
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
+
+/* Tarifas */
+
+#tituloTarifas{
+
+    text-align: center;
+    margin-top: 3rem;
+     
+    
+}
+details{
+    text-align: left 
+    !important;
+    background-color: rgb(150, 15, 22) !important;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+   }
+#Dispo{
+    font-size: xx-large;
+      
+}
+#enviarConsulta{
+    background-color: white;
+    border-color: rgb(150, 15, 22);
+    color: rgb(150, 15, 22);
+    font-size: larger;
+    border:3px solid;
+    margin-bottom: 3rem;
+}
+
+ 
+ 
+ 
+
